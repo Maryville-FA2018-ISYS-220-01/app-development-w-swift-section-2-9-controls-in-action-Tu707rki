@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Two Buttons
 //
-//  Created by Gross, Paul on 10/23/17.
-//  Copyright © 2017 Maryville App Development. All rights reserved.
+//  Created by cyberdev on 11/15/18.
+//  Copyright © 2018 cyberdev. All rights reserved.
 //
 
 import UIKit

@@ -3,29 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89D3BFE81F9DC92200D4158E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D3BFE71F9DC92200D4158E /* AppDelegate.swift */; };
-		89D3BFEA1F9DC92200D4158E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D3BFE91F9DC92200D4158E /* ViewController.swift */; };
-		89D3BFED1F9DC92200D4158E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D3BFEB1F9DC92200D4158E /* Main.storyboard */; };
-		89D3BFEF1F9DC92200D4158E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D3BFEE1F9DC92200D4158E /* Assets.xcassets */; };
-		89D3BFF21F9DC92200D4158E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D3BFF01F9DC92200D4158E /* LaunchScreen.storyboard */; };
+		B94E86C4219E8142004A24E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E86C3219E8142004A24E9 /* AppDelegate.swift */; };
+		B94E86C6219E8142004A24E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E86C5219E8142004A24E9 /* ViewController.swift */; };
+		B94E86C9219E8142004A24E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94E86C7219E8142004A24E9 /* Main.storyboard */; };
+		B94E86CB219E8143004A24E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94E86CA219E8143004A24E9 /* Assets.xcassets */; };
+		B94E86CE219E8143004A24E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94E86CC219E8143004A24E9 /* LaunchScreen.storyboard */; };
+		B94E86D9219E8143004A24E9 /* Two_ButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E86D8219E8143004A24E9 /* Two_ButtonsTests.swift */; };
+		B94E86E4219E8143004A24E9 /* Two_ButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E86E3219E8143004A24E9 /* Two_ButtonsUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B94E86D5219E8143004A24E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94E86B8219E8142004A24E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94E86BF219E8142004A24E9;
+			remoteInfo = "Two Buttons";
+		};
+		B94E86E0219E8143004A24E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94E86B8219E8142004A24E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94E86BF219E8142004A24E9;
+			remoteInfo = "Two Buttons";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		89D3BFE41F9DC92200D4158E /* Two Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89D3BFE71F9DC92200D4158E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89D3BFE91F9DC92200D4158E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		89D3BFEC1F9DC92200D4158E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89D3BFEE1F9DC92200D4158E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		89D3BFF11F9DC92200D4158E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89D3BFF31F9DC92200D4158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94E86C0219E8142004A24E9 /* Two Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94E86C3219E8142004A24E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B94E86C5219E8142004A24E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B94E86C8219E8142004A24E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B94E86CA219E8143004A24E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94E86CD219E8143004A24E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B94E86CF219E8143004A24E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94E86D4219E8143004A24E9 /* Two ButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two ButtonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94E86D8219E8143004A24E9 /* Two_ButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_ButtonsTests.swift; sourceTree = "<group>"; };
+		B94E86DA219E8143004A24E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94E86DF219E8143004A24E9 /* Two ButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two ButtonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94E86E3219E8143004A24E9 /* Two_ButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_ButtonsUITests.swift; sourceTree = "<group>"; };
+		B94E86E5219E8143004A24E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		89D3BFE11F9DC92200D4158E /* Frameworks */ = {
+		B94E86BD219E8142004A24E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94E86D1219E8143004A24E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94E86DC219E8143004A24E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +74,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		89D3BFDB1F9DC92200D4158E = {
+		B94E86B7219E8142004A24E9 = {
 			isa = PBXGroup;
 			children = (
-				89D3BFE61F9DC92200D4158E /* Two Buttons */,
-				89D3BFE51F9DC92200D4158E /* Products */,
+				B94E86C2219E8142004A24E9 /* Two Buttons */,
+				B94E86D7219E8143004A24E9 /* Two ButtonsTests */,
+				B94E86E2219E8143004A24E9 /* Two ButtonsUITests */,
+				B94E86C1219E8142004A24E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		89D3BFE51F9DC92200D4158E /* Products */ = {
+		B94E86C1219E8142004A24E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89D3BFE41F9DC92200D4158E /* Two Buttons.app */,
+				B94E86C0219E8142004A24E9 /* Two Buttons.app */,
+				B94E86D4219E8143004A24E9 /* Two ButtonsTests.xctest */,
+				B94E86DF219E8143004A24E9 /* Two ButtonsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89D3BFE61F9DC92200D4158E /* Two Buttons */ = {
+		B94E86C2219E8142004A24E9 /* Two Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				89D3BFE71F9DC92200D4158E /* AppDelegate.swift */,
-				89D3BFE91F9DC92200D4158E /* ViewController.swift */,
-				89D3BFEB1F9DC92200D4158E /* Main.storyboard */,
-				89D3BFEE1F9DC92200D4158E /* Assets.xcassets */,
-				89D3BFF01F9DC92200D4158E /* LaunchScreen.storyboard */,
-				89D3BFF31F9DC92200D4158E /* Info.plist */,
+				B94E86C3219E8142004A24E9 /* AppDelegate.swift */,
+				B94E86C5219E8142004A24E9 /* ViewController.swift */,
+				B94E86C7219E8142004A24E9 /* Main.storyboard */,
+				B94E86CA219E8143004A24E9 /* Assets.xcassets */,
+				B94E86CC219E8143004A24E9 /* LaunchScreen.storyboard */,
+				B94E86CF219E8143004A24E9 /* Info.plist */,
 			);
 			path = "Two Buttons";
+			sourceTree = "<group>";
+		};
+		B94E86D7219E8143004A24E9 /* Two ButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B94E86D8219E8143004A24E9 /* Two_ButtonsTests.swift */,
+				B94E86DA219E8143004A24E9 /* Info.plist */,
+			);
+			path = "Two ButtonsTests";
+			sourceTree = "<group>";
+		};
+		B94E86E2219E8143004A24E9 /* Two ButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B94E86E3219E8143004A24E9 /* Two_ButtonsUITests.swift */,
+				B94E86E5219E8143004A24E9 /* Info.plist */,
+			);
+			path = "Two ButtonsUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89D3BFE31F9DC92200D4158E /* Two Buttons */ = {
+		B94E86BF219E8142004A24E9 /* Two Buttons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89D3BFF61F9DC92200D4158E /* Build configuration list for PBXNativeTarget "Two Buttons" */;
+			buildConfigurationList = B94E86E8219E8143004A24E9 /* Build configuration list for PBXNativeTarget "Two Buttons" */;
 			buildPhases = (
-				89D3BFE01F9DC92200D4158E /* Sources */,
-				89D3BFE11F9DC92200D4158E /* Frameworks */,
-				89D3BFE21F9DC92200D4158E /* Resources */,
+				B94E86BC219E8142004A24E9 /* Sources */,
+				B94E86BD219E8142004A24E9 /* Frameworks */,
+				B94E86BE219E8142004A24E9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,81 +142,169 @@
 			);
 			name = "Two Buttons";
 			productName = "Two Buttons";
-			productReference = 89D3BFE41F9DC92200D4158E /* Two Buttons.app */;
+			productReference = B94E86C0219E8142004A24E9 /* Two Buttons.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B94E86D3219E8143004A24E9 /* Two ButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94E86EB219E8143004A24E9 /* Build configuration list for PBXNativeTarget "Two ButtonsTests" */;
+			buildPhases = (
+				B94E86D0219E8143004A24E9 /* Sources */,
+				B94E86D1219E8143004A24E9 /* Frameworks */,
+				B94E86D2219E8143004A24E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94E86D6219E8143004A24E9 /* PBXTargetDependency */,
+			);
+			name = "Two ButtonsTests";
+			productName = "Two ButtonsTests";
+			productReference = B94E86D4219E8143004A24E9 /* Two ButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B94E86DE219E8143004A24E9 /* Two ButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94E86EE219E8143004A24E9 /* Build configuration list for PBXNativeTarget "Two ButtonsUITests" */;
+			buildPhases = (
+				B94E86DB219E8143004A24E9 /* Sources */,
+				B94E86DC219E8143004A24E9 /* Frameworks */,
+				B94E86DD219E8143004A24E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94E86E1219E8143004A24E9 /* PBXTargetDependency */,
+			);
+			name = "Two ButtonsUITests";
+			productName = "Two ButtonsUITests";
+			productReference = B94E86DF219E8143004A24E9 /* Two ButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		89D3BFDC1F9DC92200D4158E /* Project object */ = {
+		B94E86B8219E8142004A24E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Maryville App Development";
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = cyberdev;
 				TargetAttributes = {
-					89D3BFE31F9DC92200D4158E = {
-						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
+					B94E86BF219E8142004A24E9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B94E86D3219E8143004A24E9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B94E86BF219E8142004A24E9;
+					};
+					B94E86DE219E8143004A24E9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B94E86BF219E8142004A24E9;
 					};
 				};
 			};
-			buildConfigurationList = 89D3BFDF1F9DC92200D4158E /* Build configuration list for PBXProject "Two Buttons" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = B94E86BB219E8142004A24E9 /* Build configuration list for PBXProject "Two Buttons" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 89D3BFDB1F9DC92200D4158E;
-			productRefGroup = 89D3BFE51F9DC92200D4158E /* Products */;
+			mainGroup = B94E86B7219E8142004A24E9;
+			productRefGroup = B94E86C1219E8142004A24E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89D3BFE31F9DC92200D4158E /* Two Buttons */,
+				B94E86BF219E8142004A24E9 /* Two Buttons */,
+				B94E86D3219E8143004A24E9 /* Two ButtonsTests */,
+				B94E86DE219E8143004A24E9 /* Two ButtonsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		89D3BFE21F9DC92200D4158E /* Resources */ = {
+		B94E86BE219E8142004A24E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D3BFF21F9DC92200D4158E /* LaunchScreen.storyboard in Resources */,
-				89D3BFEF1F9DC92200D4158E /* Assets.xcassets in Resources */,
-				89D3BFED1F9DC92200D4158E /* Main.storyboard in Resources */,
+				B94E86CE219E8143004A24E9 /* LaunchScreen.storyboard in Resources */,
+				B94E86CB219E8143004A24E9 /* Assets.xcassets in Resources */,
+				B94E86C9219E8142004A24E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94E86D2219E8143004A24E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94E86DD219E8143004A24E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		89D3BFE01F9DC92200D4158E /* Sources */ = {
+		B94E86BC219E8142004A24E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D3BFEA1F9DC92200D4158E /* ViewController.swift in Sources */,
-				89D3BFE81F9DC92200D4158E /* AppDelegate.swift in Sources */,
+				B94E86C6219E8142004A24E9 /* ViewController.swift in Sources */,
+				B94E86C4219E8142004A24E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94E86D0219E8143004A24E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94E86D9219E8143004A24E9 /* Two_ButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94E86DB219E8143004A24E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94E86E4219E8143004A24E9 /* Two_ButtonsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B94E86D6219E8143004A24E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94E86BF219E8142004A24E9 /* Two Buttons */;
+			targetProxy = B94E86D5219E8143004A24E9 /* PBXContainerItemProxy */;
+		};
+		B94E86E1219E8143004A24E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94E86BF219E8142004A24E9 /* Two Buttons */;
+			targetProxy = B94E86E0219E8143004A24E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		89D3BFEB1F9DC92200D4158E /* Main.storyboard */ = {
+		B94E86C7219E8142004A24E9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				89D3BFEC1F9DC92200D4158E /* Base */,
+				B94E86C8219E8142004A24E9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		89D3BFF01F9DC92200D4158E /* LaunchScreen.storyboard */ = {
+		B94E86CC219E8143004A24E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				89D3BFF11F9DC92200D4158E /* Base */,
+				B94E86CD219E8143004A24E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		89D3BFF41F9DC92200D4158E /* Debug */ = {
+		B94E86E6219E8143004A24E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,10 +322,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +335,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -211,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -220,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		89D3BFF51F9DC92200D4158E /* Release */ = {
+		B94E86E7219E8143004A24E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,10 +382,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +395,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,64 +417,167 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		89D3BFF71F9DC92200D4158E /* Debug */ = {
+		B94E86E9219E8143004A24E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Two Buttons/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.maryville.swdv.Two-Buttons";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Two-Buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		89D3BFF81F9DC92200D4158E /* Release */ = {
+		B94E86EA219E8143004A24E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Two Buttons/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.maryville.swdv.Two-Buttons";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Two-Buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		B94E86EC219E8143004A24E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Two ButtonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Two-ButtonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two Buttons.app/Two Buttons";
+			};
+			name = Debug;
+		};
+		B94E86ED219E8143004A24E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Two ButtonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Two-ButtonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two Buttons.app/Two Buttons";
+			};
+			name = Release;
+		};
+		B94E86EF219E8143004A24E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Two ButtonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Two-ButtonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Two Buttons";
+			};
+			name = Debug;
+		};
+		B94E86F0219E8143004A24E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Two ButtonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.Two-ButtonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Two Buttons";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89D3BFDF1F9DC92200D4158E /* Build configuration list for PBXProject "Two Buttons" */ = {
+		B94E86BB219E8142004A24E9 /* Build configuration list for PBXProject "Two Buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89D3BFF41F9DC92200D4158E /* Debug */,
-				89D3BFF51F9DC92200D4158E /* Release */,
+				B94E86E6219E8143004A24E9 /* Debug */,
+				B94E86E7219E8143004A24E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89D3BFF61F9DC92200D4158E /* Build configuration list for PBXNativeTarget "Two Buttons" */ = {
+		B94E86E8219E8143004A24E9 /* Build configuration list for PBXNativeTarget "Two Buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89D3BFF71F9DC92200D4158E /* Debug */,
-				89D3BFF81F9DC92200D4158E /* Release */,
+				B94E86E9219E8143004A24E9 /* Debug */,
+				B94E86EA219E8143004A24E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94E86EB219E8143004A24E9 /* Build configuration list for PBXNativeTarget "Two ButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94E86EC219E8143004A24E9 /* Debug */,
+				B94E86ED219E8143004A24E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94E86EE219E8143004A24E9 /* Build configuration list for PBXNativeTarget "Two ButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94E86EF219E8143004A24E9 /* Debug */,
+				B94E86F0219E8143004A24E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 89D3BFDC1F9DC92200D4158E /* Project object */;
+	rootObject = B94E86B8219E8142004A24E9 /* Project object */;
 }

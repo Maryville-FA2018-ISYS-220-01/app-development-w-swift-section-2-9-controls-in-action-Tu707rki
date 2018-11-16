@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Two Buttons
 //
-//  Created by Gross, Paul on 10/23/17.
-//  Copyright © 2017 Maryville App Development. All rights reserved.
+//  Created by cyberdev on 11/15/18.
+//  Copyright © 2018 cyberdev. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
+    @IBAction func setTextButtonTapped(_ setTextButtonTapped: UITextField!) {
+    }
+    let setTextButtonTapped = "Enter text to display in the label below"
+    @IBAction func clearTextButtonTapped(_ clearTextButtonTapped: UITextField!) {
+    }
+    let clearTextButtonTapped = " "
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
